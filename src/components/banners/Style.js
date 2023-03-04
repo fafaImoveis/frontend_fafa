@@ -685,7 +685,7 @@ export const Banner_1 = styled.div`
         display: flex;
         float: left;
         width: 100%;
-        height: 50rem;
+        height: 47rem;
         margin-top: 7rem;
 
     .banner{
@@ -739,7 +739,7 @@ export const Banner_1 = styled.div`
                 position: relative;
                 display: flex;
                 justify-content: flex-start;
-                width: 60%;
+                width: 80%;
                 height: 7%;
                 left: 3rem;
                 margin-top: 1.5rem;
@@ -760,11 +760,12 @@ export const Banner_1 = styled.div`
             .Body_informations{
                 position: relative;
                 display: flex;
-                width: 60%;
+                width: 80%;
                 height: 7%;
                 justify-content: flex-start;
                 font-family: ${({ theme }) => theme.fonts.home.nunito_};
                 top: 1rem;
+                left: 1rem;
                 margin: 0 auto;
                 p{
                     margin-left: 0rem;
@@ -786,16 +787,16 @@ export const Banner_1 = styled.div`
                 h3{
                     position: relative;
                     font-family: ${({ theme }) => theme.fonts.home.nunito_};
-                    left: 3rem;
+                    left: 1rem;
                     top: 1rem;
                     color: #ffff;
                     font-size: 0.80rem;
                 }
                 .button{
                     position: relative;
-                    width: 60%;
+                    width: 80%;
                     height: 10%;
-                    left: 3rem;
+                    left: 1rem;
                     top: -1rem;
                 }
             }
@@ -808,7 +809,7 @@ export const Banner_1 = styled.div`
         display: flex;
         float: left;
         width: 100%;
-        height: 50rem;
+        height: 40rem;
         margin-top: 7rem;
 
     .banner{
@@ -849,7 +850,7 @@ export const Banner_1 = styled.div`
                 justify-content: flex-start;
                 width: 70%;
                 height: 3rem;
-                left: 3rem;
+                left: 2rem;
                 
                 margin-top: 3.7rem;
                 h1{
@@ -864,7 +865,7 @@ export const Banner_1 = styled.div`
                 justify-content: flex-start;
                 width: 80%;
                 height: 7%;
-                left: 3rem;
+                left: 2rem;
                 margin-top: 1.5rem;
                 font-family: ${({ theme }) => theme.fonts.home.nunito_};
                 color: ${({ theme }) => theme.colors.home.text_black_opacity};
@@ -884,12 +885,13 @@ export const Banner_1 = styled.div`
             .Body_informations{
                 position: relative;
                 display: flex;
-                width: 60%;
+                width: 70%;
                 height: 7%;
                 justify-content: flex-start;
                 font-family: ${({ theme }) => theme.fonts.home.nunito_};
                 margin-top: 1rem;
                 margin: 0 auto;
+                left: 0rem;
                 p{
                     margin-left: 0rem;
                     font-size: 0.60rem;
@@ -909,16 +911,16 @@ export const Banner_1 = styled.div`
                 h3{
                     position: relative;
                     font-family: ${({ theme }) => theme.fonts.home.nunito_};
-                    left: 3rem;
+                    left: 1rem;
                     top: 1rem;
                     color: #ffff;
                     font-size: 0.80rem;
                 }
                 .button{
                     position: relative;
-                    width: 60%;
+                    width: 80%;
                     height: 10%;
-                    left: 3rem;
+                    left: 1rem;
                     top: -1rem;
                 }
             }
