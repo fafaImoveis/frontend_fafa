@@ -5,8 +5,10 @@ export const Footer = () => {
     return(
         <>
             <Footer_style>
-                <div className="logo">
-                </div>
+                <Link to="login">
+                    <div className="logo">
+                    </div>
+                </Link>
                 <div className="contato">
                     <h2>Contato</h2>
                     <p><a href="https://api.whatsapp.com/send?phone=551155266144&text=Olá, Eu gostaria de anunciar meu imóvel!!">(11) 5526-6144</a></p>
