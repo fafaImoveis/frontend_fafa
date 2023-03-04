@@ -98,7 +98,7 @@ export const Menu_style = styled.header`
     height: 35rem;
     display: flex;
     width: 100%;
-    height: 7rem;
+    height: 5rem;
     background-color: ${({ theme }) => theme.colors.home.backgound_white};
     box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.2);
 
@@ -112,6 +112,7 @@ export const Menu_style = styled.header`
         }
 
         .menu_navigation{
+            position: relative;
             display: flex;
             align-items: center;
             justify-content: space-evenly;
@@ -119,10 +120,11 @@ export const Menu_style = styled.header`
             height: 100%;
             ul{
                 display: flex;
+                width: 0rem;
                 .link{
                 li{
                     list-style: none;
-                    margin: 0.60rem;
+                    margin: 0rem;
                     font-family: ${({ theme }) => theme.fonts.home.nunito_};
                     font-weight: 700;
                     font-size: 0rem;
