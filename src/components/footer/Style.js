@@ -104,7 +104,7 @@ export const Footer_style = styled.div`
     flex-direction: column;
     float: left;
     width: 100%;
-    height: 75rem;
+    height: 55rem;
     background-color: ${({ theme }) => theme.colors.home.background_gray};
     a{
         text-decoration: none;
@@ -113,7 +113,7 @@ export const Footer_style = styled.div`
     .logo{
         float: left;
         width: 80%;
-        height: 60%;
+        height: 20%;
         margin-top: 6rem;
         margin: 0 auto;
         background-image: url(${logo});
@@ -124,15 +124,16 @@ export const Footer_style = styled.div`
 
     .contato{
         display: flex;
-        flex-direction: column; 
+        flex-direction: column;
         align-items: center;
-        width: 30%;
-        height: 30%;
-        margin-top: 7rem;
+        width: 20rem;
+        height: 20%;
+        margin-top: -4rem;
         margin: 0 auto;
         font-family: ${({ theme }) => theme.fonts.home.nunito_};
-
+        
         p{
+            font-size: 0.9rem;
             margin-top:2rem;
         }
     }
@@ -142,7 +143,7 @@ export const Footer_style = styled.div`
         flex-direction: column;
         align-items: center;
         width: 70%;
-        height: 70%;
+        height: 20%;
         margin: 0 auto;
         border-right: 0px solid rgba(0, 0, 0, 0.3);
         margin-top: 7rem;
@@ -158,7 +159,7 @@ export const Footer_style = styled.div`
     }
     hr{
         visibility: visible;
-        width: 30%;
+        width: 80%;
         margin: 0 auto;
         margin-top: 2rem;
     }
@@ -169,23 +170,21 @@ export const Footer_style = styled.div`
         justify-content: space-evenly;
         align-items: center;
         width: 100%;
-        height: 60%;
-        margin-top: 7rem;
+        height: 10%;
+        margin-top: 3rem;
 
-        a{
         .wpp{
-            width: 30%;
-            height: 15%;
+            width: 2rem;
+            height: 3rem;
             background-image: url(${Wpp});
             background-position: center;
             background-size: contain;
             background-repeat: no-repeat;
-        }
     }
 
         .face{
-            width: 30%;
-            height: 15%;
+            width: 2rem;
+            height: 3rem;
             background-image: url(${Face});
             background-position: center;
             background-size: contain;
@@ -193,8 +192,8 @@ export const Footer_style = styled.div`
         }
 
         .insta{
-            width: 30%;
-            height: 15%;
+            width: 2rem;
+            height: 3rem;
             background-image: url(${Insta});
             background-position: center;
             background-size: contain;
