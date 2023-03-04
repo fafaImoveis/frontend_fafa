@@ -496,12 +496,12 @@ export const Simulation = styled.div`
 
 
         @media (max-width: 411px) {
-            float: left;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    width: 100%;
-    height: 55rem;
+        float: left;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        height: 55rem;
 
 
         h2{
@@ -510,13 +510,14 @@ export const Simulation = styled.div`
         font-weight: 700;
         margin-top: 5rem;
         font-size: 0.80rem;
+        margin-left: 3rem;
         }
 
     .carousel{
         position: relative;
         display: flex;
         flex-direction: row;
-        width: 20rem;
+        width: 19rem;
         height: 35rem;
         margin-top: 3rem;
         background-color: ${({ theme }) => theme.colors.home.background_gray};
