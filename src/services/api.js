@@ -3,7 +3,7 @@ import axios from "axios";
 const apiu = ''
 
 const api = axios.create({
-    baseURL: "https://www.fagundesimoveis.app.br",
+    baseURL: "https://fagundesimoveis.app.br",
 });
 
 export default api;
