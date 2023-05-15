@@ -4,7 +4,7 @@ import bank01 from '../../assets/icons/bradesco.png';
 import bank02 from '../../assets/icons/bdb.png';
 import bank03 from '../../assets/icons/itau.png';
 import bank04 from '../../assets/icons/santander.png';
-import bank05 from 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.elo7.com.br%2Fmatriz-de-bordado-caixa-economica-federal%2Fdp%2F1687C5C&psig=AOvVaw0XVBrS3XPKmVz3KVcThUz0&ust=1684265404077000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCIjchtuH-P4CFQAAAAAdAAAAABAE'
+import bank05 from '../../assets/icons/matriz-de-bordado-caixa-economica-federal-bordados.jpg'
 
 
 export const Simulation = styled.div`
