@@ -4,7 +4,7 @@ import styled from "styled-components";
 export const Screen_2 = styled.div`
     float: left;
     width: 100%;
-    height: 35rem;
+    height: 37rem;
     .title{
         display: flex;
         align-items: center;
