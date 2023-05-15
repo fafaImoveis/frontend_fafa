@@ -18,7 +18,7 @@ export const Screen_2 = styled.div`
     .painel{
         width: 18rem;
         height: 28rem;
-        background-color: black;
+        background-color: ${({ theme }) => theme.colors.home.background_white_2};
         box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.1);
         border-radius: 0.90rem;
         margin-left: 3rem;
