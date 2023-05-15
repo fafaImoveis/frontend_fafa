@@ -94,7 +94,7 @@ export const Details = () => {
               <div className="conteudo">
                 <h2>Simule um financiamento</h2>
                 <p>Simule a compra ou aluguel desse imovel e <br></br> descubra quais são as mGelhores opções para você.</p>
-                <button> <a href="/simulation">Simular Compra</a></button>
+                <button> <a href="https://api.whatsapp.com/send?phone=551155266144&text=Olá, Eu gostaria de simular uma compra!!">Simular Compra</a></button>
               </div>
             </div>
 
