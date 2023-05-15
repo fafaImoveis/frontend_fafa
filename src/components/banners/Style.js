@@ -748,6 +748,7 @@ export const Banner_1 = styled.div`
                 h2{
                     position: relative;
                     left: 1rem;
+                    top: 0.3rem;
                     font-size: 0.90rem;
                 }
                 img{
@@ -778,6 +779,7 @@ export const Banner_1 = styled.div`
                 display: flex;
                 flex-direction: column;
                 justify-content: space-around;
+                align-items: center;
                 width: 80%;
                 height: 10rem;
                 background-color: ${({ theme }) => theme.colors.home.button_pink};
