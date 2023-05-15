@@ -22,7 +22,7 @@ export const Footer = () => {
                 <div className="redes_sociais">
                     <a href="https://api.whatsapp.com/send?phone=551155266144&text=Olá Fagundes Imóveis, poderia me ajudar?" className="wpp"></a>
                     <a href="https://www.facebook.com/profile.php?id=100063632615940&sk=photos" className="face"></a>
-                    <a href="#" className="insta"></a>
+                    <a href="https://www.instagram.com/fagundes_imoveis/" className="insta"></a>
                 </div>
             </Footer_style>
         </>
