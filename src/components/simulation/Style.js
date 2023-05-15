@@ -4,6 +4,7 @@ import bank01 from '../../assets/icons/bradesco.png';
 import bank02 from '../../assets/icons/bdb.png';
 import bank03 from '../../assets/icons/itau.png';
 import bank04 from '../../assets/icons/santander.png';
+import bank05 from 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.elo7.com.br%2Fmatriz-de-bordado-caixa-economica-federal%2Fdp%2F1687C5C&psig=AOvVaw0XVBrS3XPKmVz3KVcThUz0&ust=1684265404077000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCIjchtuH-P4CFQAAAAAdAAAAABAE'
 
 
 export const Simulation = styled.div`
@@ -147,6 +148,40 @@ export const Simulation = styled.div`
                 width: 7rem;
                 height: 7rem;
                 background-image: url(${bank04});
+                background-position: center;
+                background-size: contain;
+                background-repeat: no-repeat;
+                margin-top: 6rem;
+            }
+            box-shadow: 0px 4px 40px rgba(255, 0, 0, 0.3);
+            border-radius: 0.70rem;
+            transition: all 1s;
+
+            p{
+                position: relative;
+                top: 2.7rem;
+                font-family: ${({ theme }) => theme.fonts.home.nunito_};
+                font-size: 1.3rem;
+            }
+        }
+
+        .bank04:hover{
+            scale: 1.1;
+        }
+        }
+        
+        .bank05{
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 15rem;
+            height: 23rem;
+            left: 15rem;
+            .photo{
+                width: 7rem;
+                height: 7rem;
+                background-image: url(${bank05});
                 background-position: center;
                 background-size: contain;
                 background-repeat: no-repeat;
@@ -329,6 +364,41 @@ export const Simulation = styled.div`
             scale: 1.1;
         }
         }
+        
+        .bank05{
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 15rem;
+            height: 23rem;
+            left: 15rem;
+            .photo{
+                width: 7rem;
+                height: 7rem;
+                background-image: url(${bank05});
+                background-position: center;
+                background-size: contain;
+                background-repeat: no-repeat;
+                margin-top: 6rem;
+            }
+            box-shadow: 0px 4px 40px rgba(255, 0, 0, 0.3);
+            border-radius: 0.70rem;
+            transition: all 1s;
+
+            p{
+                position: relative;
+                top: 2.7rem;
+                font-family: ${({ theme }) => theme.fonts.home.nunito_};
+                font-size: 1.3rem;
+            }
+        }
+
+        .bank04:hover{
+            scale: 1.1;
+        }
+        }
+
         }
 
 
