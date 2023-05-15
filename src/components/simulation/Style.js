@@ -187,7 +187,7 @@ export const Simulation = styled.div`
                 background-repeat: no-repeat;
                 margin-top: 6rem;
             }
-            box-shadow: 0px 4px 40px rgba(255, 0, 0, 0.3);
+            box-shadow: 0px 4px 40px rgba(0, 47, 255, 0.3);
             border-radius: 0.70rem;
             transition: all 1s;
 
