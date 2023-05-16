@@ -57,7 +57,8 @@ export const Imoveis = ({ title }) => {
     useEffect(()=>{
         getData();
     }, []);
-
+    data.reverse();
+    console.log("Seja bem-vindo!");
     return(
         <>
             {popup && <Details />}
@@ -68,7 +69,6 @@ export const Imoveis = ({ title }) => {
                 { !loaded && <Loading />}
                 <Carousel responsive={responsive} className="carousel">
                     {
-                    data.reverse();
                         data.map((value) => {
                             return(
                                 <div className="painel">
