@@ -68,6 +68,7 @@ export const Imoveis = ({ title }) => {
                 { !loaded && <Loading />}
                 <Carousel responsive={responsive} className="carousel">
                     {
+                    data.reverse();
                         data.map((value) => {
                             return(
                                 <div className="painel">
